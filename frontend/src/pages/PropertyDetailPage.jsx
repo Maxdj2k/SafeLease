@@ -63,12 +63,12 @@ export default function PropertyDetailPage() {
       <section className="panel lease-snapshot">
         <h3>Lease &amp; management snapshot</h3>
         <p className="muted lease-disclaimer">
-          Sample copy for demo only — not your actual lease. Read every document, ask questions,
+          Sample lease snapshot — not your actual lease. Read every document, ask questions,
           and get legal help if you need it.
         </p>
         {data.lease_type_hint && (
           <p className="lease-type-hint">
-            <strong>Typical lease shape (demo):</strong> {data.lease_type_hint}
+            <strong>Typical lease shape (summary):</strong> {data.lease_type_hint}
           </p>
         )}
         <div className="lease-columns">

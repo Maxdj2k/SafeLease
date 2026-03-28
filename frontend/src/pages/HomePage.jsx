@@ -105,8 +105,8 @@ export default function HomePage() {
                 </svg>
               </span>
               <div>
-                <div className="hub-text-body hub-text-strong">Demo data</div>
-                <div className="hub-text-sub hub-text-tight">Run Django + API for live scores and detail pages.</div>
+                <div className="hub-text-body hub-text-strong">Sample listings mode</div>
+                <div className="hub-text-sub hub-text-tight">Connect the API for live scores and full detail pages.</div>
               </div>
             </div>
           )}
@@ -182,13 +182,13 @@ export default function HomePage() {
                     <div className="hub-avatar hub-avatar-lg hub-avatar-slate" aria-hidden />
                     <div>
                       <div className="hub-text-title hub-text-title-sm">SafeLease</div>
-                      <div className="hub-text-sub hub-text-tight">Norfolk • renter-reported demo</div>
+                      <div className="hub-text-sub hub-text-tight">Norfolk • renter-reported signals</div>
                     </div>
                     <span className="hub-pill hub-pill-blue-soft">Announcement</span>
                   </div>
                   <p className="hub-text-body">
-                    Scores blend anonymous reports and issue types—always verify in person and read your lease.
-                    This hub is sample data for hackathon judging.
+                    Scores blend anonymous reports and issue types—use them as one input, not the whole story.
+                    Verify in person, read your lease, and check anything that affects your decision.
                   </p>
                 </article>
               )}
@@ -241,7 +241,7 @@ export default function HomePage() {
           )}
 
           <div className="hub-card hub-card-yellow">
-            <div className="hub-text-label hub-label-amber">Norfolk demo avg</div>
+            <div className="hub-text-label hub-label-amber">Norfolk avg (visible)</div>
             <div className="hub-stat-row">
               <div className="hub-text-hero">{stats.avg || '—'}</div>
             </div>
@@ -286,7 +286,7 @@ export default function HomePage() {
 
           <div className="hub-card">
             <div className="hub-text-title">Listing pulse</div>
-            <div className="hub-text-sub hub-text-tight hub-mb">Demo activity (not real closings)</div>
+            <div className="hub-text-sub hub-text-tight hub-mb">Illustrative activity trend</div>
             <div className="hub-v-chart">
               <div className="hub-v-bar" style={{ height: '40%' }}>
                 <div className="hub-v-bar-inner hub-fill-blue" />

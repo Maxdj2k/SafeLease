@@ -26,7 +26,7 @@ export default function PropertyFeedCard({ property: p }) {
         </div>
         <div className="hub-listing-price-row">
           <div className="hub-text-hero">{p.risk_score}</div>
-          <div className="hub-text-sub">demo risk points</div>
+          <div className="hub-text-sub">composite score (pts)</div>
         </div>
         <h2 className="hub-text-title hub-listing-title">{p.name}</h2>
         <div className="hub-text-sub">{p.address_display}</div>

@@ -17,9 +17,9 @@ export default function PropertyMap({ properties, offlinePreview = false, compac
   return (
     <div className={`fake-map-wrap${compact ? ' fake-map-wrap--compact' : ''}`}>
       <div className={`fake-map-header${compact ? ' fake-map-header--compact' : ''}`}>
-        <strong>Norfolk Demo Map (mock layout)</strong>
+        <strong>Norfolk area map</strong>
         <span className="fake-map-header-meta">
-          Markers are approximate demo positions
+          Pins are approximate
           <a
             className="fake-map-osm-credit"
             href="https://www.openstreetmap.org/copyright"
